@@ -32,8 +32,8 @@ from rl_games.algos_torch import torch_ext
 import torch
 import numpy as np
 from typing import Callable
-
-from tasks import isaacgym_task_map
+print(f'remove from {__file__}: HERE!!!')
+from isaacgymenvs.tasks import isaacgym_task_map
 
 
 def get_rlgames_env_creator(
